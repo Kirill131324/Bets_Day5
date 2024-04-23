@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bets_day3.HelloController">
+   <children>
+    <Button fx:id="Bit1" layoutX="407.0" layoutY="374.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Створити" />
+      <TextField fx:id="Edi1" layoutX="-4.0" layoutY="35.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi2" layoutX="-1.0" layoutY="79.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi3" layoutX="-3.0" layoutY="124.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi4" layoutX="-3.0" layoutY="167.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi5" layoutX="-3.0" layoutY="209.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi6" layoutX="-3.0" layoutY="251.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi7" layoutX="-3.0" layoutY="293.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi8" layoutX="-4.0" layoutY="335.0" prefHeight="25.0" prefWidth="161.0" />
+      <ListView fx:id="Li" layoutX="213.0" layoutY="14.0" prefHeight="341.0" prefWidth="453.0" />
+      <Label fx:id="Лаб1" layoutY="17.0" text="Введіть Ім'я" />
+      <Label fx:id="Лаб2" layoutX="2.0" layoutY="62.0" text="Введіть адресу" />
+      <Label fx:id="Лаб3" layoutX="-1.0" layoutY="105.0" text="Введіть кількість пар" />
+      <Label fx:id="Лаб4" layoutX="-1.0" layoutY="149.0" text="Введіть  ціну за пару" />
+      <Label fx:id="Лаб5" layoutX="4.0" layoutY="192.0" text="Введіть  бренд кросівок" />
+      <Label fx:id="Лаб6" layoutX="3.0" layoutY="234.0" text="Кросівки для бігу? (true/false)" />
+      <Label fx:id="Лаб7" layoutX="2.0" layoutY="276.0" text="Кросівки водонепроникні? (true/false)" />
+      <Label fx:id="Лаб8" layoutX="4.0" layoutY="318.0" text="Колір" />
+      <Label fx:id="Лаб9" layoutX="-1.0" layoutY="366.0" text="Матеріал туфлів" />
+      <Label fx:id="Лаб10" layoutX="3.0" layoutY="412.0" text="Чи є каблук? (true/false) " />
+      <Label fx:id="Лаб19" layoutX="457.0" layoutY="457.0" text="Матеріал устілки" />
+      <Label fx:id="Лаб15" layoutX="177.0" layoutY="457.0" text="Висота чоботів" />
+      <Label fx:id="Лаб13" layoutX="-2.0" layoutY="541.0" text="Чоботи водоміцні? (true/false) " />
+      <Label fx:id="Лаб18" layoutX="457.0" layoutY="412.0" text="Товщина підошви" />
+      <Label fx:id="Лаб20" layoutX="457.0" layoutY="499.0" text="Захід" />
+      <Label fx:id="Лаб16" layoutX="177.0" layoutY="499.0" text="Діяльність" />
+      <Label fx:id="Лаб17" layoutX="175.0" layoutY="541.0" text="Стиль ремінця" />
+      <Label fx:id="Лаб14" layoutX="175.0" layoutY="412.0" text="Тип шнурівки" />
+      <Label fx:id="Лаб12" layoutX="2.0" layoutY="499.0" text="Випадок" />
+      <Label fx:id="Лаб11" layoutX="1.0" layoutY="457.0" text="Висота каблука" />
+      <TextField fx:id="Edi20" layoutX="457.0" layoutY="516.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="Edi19" layoutX="457.0" layoutY="474.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="Edi18" layoutX="457.0" layoutY="432.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="Edi17" layoutX="175.0" layoutY="558.0" prefHeight="25.0" prefWidth="261.0" />
+      <TextField fx:id="Edi16" layoutX="175.0" layoutY="516.0" prefHeight="25.0" prefWidth="261.0" />
+      <TextField fx:id="Edi15" layoutX="177.0" layoutY="474.0" prefHeight="25.0" prefWidth="261.0" />
+      <TextField fx:id="Edi14" layoutX="177.0" layoutY="432.0" prefHeight="25.0" prefWidth="261.0" />
+      <TextField fx:id="Edi13" layoutX="-4.0" layoutY="558.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi12" layoutX="-4.0" layoutY="516.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi11" layoutX="-4.0" layoutY="474.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi10" layoutX="-4.0" layoutY="432.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="Edi9" layoutX="-4.0" layoutY="387.0" prefHeight="25.0" prefWidth="161.0" />
+      <Button fx:id="Bit2" layoutX="531.0" layoutY="558.0" mnemonicParsing="false" text="Видалити" />
+   </children>
+</AnchorPane>
